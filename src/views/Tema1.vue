@@ -45,7 +45,7 @@
       .col-md.tarjeta.color-tarjeta-1.p-5
         .row.justify-content-center.mb-4
           .col-6
-            figure
+            figure(data-aos="zoom-in-left")
               img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
           
         p.text-center La popular frase ‘quien tiene la información tiene el poder’, precisamente hace referencia a la importancia demostrada de tener acceso a la información correcta de forma oportuna, para la elección de alternativas de solución a una situación o disyuntiva que se presente. 
@@ -78,7 +78,7 @@
         p Los sistemas de información pueden tener un alcance local, regional, nacional, internacional, o funcionar exclusivamente al interior de una organización, en apoyo a la buena gestión de esta. También pueden existir varios cumpliendo diferentes propósitos, relacionándose entre sí o alimentando a otros de mayor alcance. No obstante, sin importar la trascendencia, propósito o tema que tengan, todos ellos funcionan de manera similar; y esto es a través de tres etapas fundamentales: entradas, transformación y salidas. 
 
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
 
     .tarjeta.tarjeta--azul.p-4.banner1-tema-1
@@ -88,7 +88,7 @@
             p Estas tres etapas marcan el funcionamiento de todo sistema, dejando ver sus componentes y estructura. 
 
           .col-md-4
-            figure
+            figure(data-aos="zoom-in-left")
               img(src='@/assets/curso/temas/tema1/img6.png', alt='Texto que describa la imagen')
               
 
@@ -98,7 +98,7 @@
             p Si se equiparan estas a un sistema de producción, como la elaboración de pan, por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el #[i know-how] o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del know-how y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
 
           .col-md-4
-            figure
+            figure(data-aos="zoom-in-left")
               img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
 
     .row.mt-5
@@ -112,7 +112,7 @@
 
     ImagenInfografica.color-acento-botones.banner2-tema-1
       template(v-slot:imagen)
-        figure
+        figure(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones.p-3(x="36%" y="5%" numero="1")
@@ -169,7 +169,7 @@
             p.mb-0 Los sistemas de información tienen componentes que hacen parte del proceso que permite que los datos se transformen en información. 
           
     .row.mt-5
-      figure
+      figure(data-aos="zoom-in-left")
         img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
 
     
@@ -193,7 +193,7 @@
         p.mt-3 Para comprender mejor lo dicho anteriormente, es momento de ejemplificar:
 
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
 
     .row.justify-content-center.align-items-center.mb-5
@@ -201,7 +201,7 @@
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-5
            p Hora de ver la relación entre el dato y la información en el sistema.
 
-        figure.mt-5
+        figure(data-aos="zoom-in-left").mt-5
           img(src="@/assets/curso/temas/tema1/img12.png", alt="alt")
 
     .row.mt-5
@@ -224,7 +224,7 @@
            p Es por esto que una base de datos se puede definir, de acuerdo a Beynon-Davies (2018), como una colección organizada de hechos o aserciones positivas cuyo significado representa algún universo del discurso (UdD), es decir, en una clasificación y en la relación entre las diferentes tipificaciones creadas.
 
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img13.png", alt="alt")
 
     .row.mt-5
@@ -329,7 +329,7 @@
            p En el caso de los datos comerciales, se definen como todos los hechos relacionados con los clientes actuales y potenciales. Sus comportamientos y relación con los productos y servicios de la empresa. Ejemplos de bases datos comerciales serían: listados de clientes actuales por producto, de clientes potenciales por producto, de productos vendidos en un determinado segmento de mercado, de preferencias de los consumidores en relación con los productos y servicios de la empresa, calificación de los servicios recibidos por los clientes en un periodo de tiempo determinado, entre otros.
 
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img15.png", alt="alt")
 
     .row.mt-5
@@ -342,7 +342,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-5
-          figure
+          figure(data-aos="zoom-in-left")
             img(src="@/assets/curso/temas/tema1/img16.svg", alt="alt").width-image-tema1
           .tarjeta-numerada__numero
           p.text-center 
@@ -351,7 +351,7 @@
 
       .col-md-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-5
-          figure
+          figure(data-aos="zoom-in-left")
             img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt").width-image-tema1
           .tarjeta-numerada__numero
           p.text-center 
@@ -375,7 +375,7 @@
         p Las fuentes secundarias permiten realizar consultas de documentos, investigaciones, artículos, libros, etc. escritas por otros autores que indagaron el tema con anterioridad. Estas cumplen la función de respaldar la base teórica del proceso de búsqueda. Las fuentes primarias son aquellas en las que los investigadores recogen de primera mano los datos necesarios, haciendo uso de herramientas o instrumentos de recolección.  Algunas de estas son:
 
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img18.png", alt="alt")
 
     .row
@@ -384,7 +384,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<b>Entrevistas de <em>focus group</em></b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img19.png", alt="alt")
 
               .col-lg-9
@@ -395,7 +395,7 @@
           .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas de profundidad</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img20.svg", alt="alt")
 
               .col-lg-9
@@ -415,7 +415,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<b>Conversaciones</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt")
 
               .col-lg-9
@@ -426,7 +426,7 @@
           .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas semiestructuradas</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt")
 
               .col-lg-9
@@ -437,7 +437,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<b>Método de libre asociación /<br> Conclusión de oraciones</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img23.svg", alt="alt")
 
               .col-lg-9
@@ -465,7 +465,7 @@
           .tarjeta.clr-paleYellow2.p-4(titulo="<b>Observación</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt")
 
               .col-lg-9
@@ -474,7 +474,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<b><em>Collages</em></b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
               .col-lg-9
@@ -483,7 +483,7 @@
           .tarjeta.clr-paleYellow2.p-4(titulo="<b><em>Test</em> de percepción temática</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img26.svg", alt="alt")
 
               .col-lg-9
@@ -492,7 +492,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<b>Encuestas</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
-                figure
+                figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img27.svg", alt="alt")
 
               .col-lg-9
