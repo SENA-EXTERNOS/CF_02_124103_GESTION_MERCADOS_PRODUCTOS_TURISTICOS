@@ -42,7 +42,7 @@
       
       .col-lg-5
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema2/img1.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
       
       .col-lg-7
 
@@ -102,7 +102,7 @@
       
       .col-lg-5
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema2/img5.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img5.png", alt="alt")
       
       .col-lg-7
 
@@ -229,7 +229,7 @@
 
       .col-lg-5
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema2/img13.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img13.png", alt="alt")
 
     .row.mt-5
       p Para ampliar la información descrita anteriormente, se puede ver lo siguiente:

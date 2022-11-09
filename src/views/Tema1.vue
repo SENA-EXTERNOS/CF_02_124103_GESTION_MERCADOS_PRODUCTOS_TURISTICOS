@@ -17,7 +17,7 @@
         
       .col-lg-5
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema1/img1.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img1.png", alt="alt")
         
     .row.mt-3
       ul.lista-ul--color
@@ -55,7 +55,7 @@
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
            p Para ampliar esta información ver: Anexo 1, Sistemas de información 
 
-           a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -79,7 +79,7 @@
 
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema1/img5.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
 
     .tarjeta.tarjeta--azul.p-4.banner1-tema-1
       SlyderA(tipo="b")
@@ -89,7 +89,7 @@
 
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img6.png', alt='Texto que describa la imagen')
               
 
         .row.justify-content-center.align-items-center.my-lg-4
@@ -99,7 +99,7 @@
 
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
 
     .row.mt-5
       p Ahora, si se lleva un sistema de información en el sector turístico, más exactamente en la industria hotelera, ¿qué se puede encontrar?    
@@ -225,7 +225,7 @@
 
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img13.png", alt="alt")
 
     .row.mt-5
       p Como podemos ver en esta imagen, existe un listado de hechos (número de habitaciones disponibles para la venta y número de habitaciones ocupadas) que están organizados por los meses del año en que tuvieron lugar, y además, se muestra su porcentaje de ocupación promedio por mes y los totales por año, configurando una base de datos de la ocupación en un hotel.
@@ -330,7 +330,7 @@
 
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema1/img15.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img15.png", alt="alt")
 
     .row.mt-5
       p Por último, los datos comerciales provienen de diferentes fuentes de información, como se muestra a continuación en la imagen:
@@ -376,7 +376,7 @@
 
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema1/img18.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img18.png", alt="alt")
 
     .row
       .col-lg-12.order-2.order-lg-1
