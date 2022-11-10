@@ -168,9 +168,10 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Los sistemas de información tienen componentes que hacen parte del proceso que permite que los datos se transformen en información. 
           
-    .row.mt-5
-      figure(data-aos="zoom-in-left")
-        img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-10
+        figure(data-aos="zoom-in-left")
+          img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
 
     
 
