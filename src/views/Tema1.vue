@@ -113,21 +113,21 @@
     ImagenInfografica.color-acento-botones.banner2-tema-1
       template(v-slot:imagen)
         figure(data-aos="zoom-in-left")
-          img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-botones.p-3(x="36%" y="5%" numero="1")
+      .tarjeta.color-acento-botones.p-3(x="37%" y="11%" numero="1")
         .h5.mb-2 Etapa 1 - Entrada
         p Este es el primer paso, en el cual, a través de diferentes métodos y herramientas de recolección de datos que se profundizarán más adelante, se obtienen los datos que constituyen el insumo o materia prima que será transformado. Estos deben corresponder al propósito de su recolección, es decir, el del sistema de información, por lo que deben ser seleccionados con anterioridad y objetividad.
 
         p Por ejemplo, al interior de un hotel existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de check-in, que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estadía
 
-      .tarjeta.color-acento-botones.p-3(x="62%" y="5%" numero="2")
+      .tarjeta.color-acento-botones.p-3(x="60%" y="11%" numero="2")
         .h5.mb-2 Etapa 2 - Transformación
         p En esta etapa los datos anteriormente seleccionados se procesan y transforman, haciendo uso de diferentes métodos de procesamiento (selección, organización, tabulación, validación, cálculo e interpretación). Hoy en día este se encuentra muy unido a la tecnología, ya que le permite realizar de una manera más rápida, efectiva y automatizada su labor. 
 
         p Continuando con el ejemplo, dentro del hotel, los datos recolectados son procesados, clasificados y divididos a través del sistema, según el propósito de las salidas del mismo.
 
-      .tarjeta.color-acento-botones.p-3(x="89%" y="5%" numero="3")
+      .tarjeta.color-acento-botones.p-3(x="83%" y="11%" numero="3")
         .h5.mb-2 Etapa 1 - Entrada
         p La última etapa es la salida de la información. Esta es entregada como información básica, la cual, dependiendo del propósito del sistema y la percepción humana, puede ser interpretada de diferentes maneras, facilitando generar variaciones derivadas de ella y su aplicabilidad en diferentes ámbitos.  
 
@@ -169,9 +169,9 @@
             p.mb-0 Los sistemas de información tienen componentes que hacen parte del proceso que permite que los datos se transformen en información. 
           
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-10
+      .col-lg-10.col-xs-12
         figure(data-aos="zoom-in-left")
-          img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
 
     
 
@@ -203,7 +203,7 @@
            p Hora de ver la relación entre el dato y la información en el sistema.
 
         figure(data-aos="zoom-in-left").mt-5
-          img(src="@/assets/curso/temas/tema1/img12.png", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
 
     .row.mt-5
       p La figura muestra cómo los datos que entran al sistema se conjugan entre sí a través de una fórmula en la etapa de transformación, que arroja como resultado el porcentaje de ocupación del hotel para esa fecha.
@@ -239,6 +239,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
+        .tabla-c
             table
               thead
                 tr
@@ -352,7 +353,7 @@
 
       .col-md-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-5
-          figure(data-aos="zoom-in-left")
+          figure(data-aos="zoom-in-left").pb-2
             img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt").width-image-tema1
           .tarjeta-numerada__numero
           p.text-center 
@@ -485,7 +486,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
-                  img(src="@/assets/curso/temas/tema1/img26.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema1/img26.png", alt="alt")
 
               .col-lg-9
                 p Presenta a los sujetos uno o varios cuadros de situaciones ambiguas en los que consumidores y productos son el centro de atención.  El investigador procede a pedirle al sujeto que diga lo que sucede en los cuadros y lo que sucederá después. Por lo tanto, se evocan temas con base en el uso interpretativo - perceptivo (percepción) de los cuadros.

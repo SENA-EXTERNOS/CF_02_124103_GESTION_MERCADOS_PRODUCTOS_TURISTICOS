@@ -112,71 +112,66 @@
     .row
       p Según esta herramienta se deben seguir cinco pasos: 
 
-    .bg_img_01.mt-5
-      .row.justify-content-center.mb-5
-        .col-lg-3.mb-4.mb-lg-0.banner1-tema-2
-          .crd
-            .bottomCircle.mb-5
-              figure(data-aos="zoom-in-left")
-                img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt").img90.m-auto
-            ol.lista-ol--cuadro.lista-ol--separador
-              li
-                .lista-ol--cuadro__vineta
-                  span 1
-                p.mb-0 #[b Seleccionar un segmento de clientes:]
-            p.text-center.mb-0 Seleccionar aquella sección de clientes que se busca perfilar.
 
-        .col-lg-3.mb-4.mb-lg-0.banner1-tema-2
-          .crd
-            .bottomCircle.mb-5
+    .row.justify-content-center.align-items-center.mb-5.mt-5  
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4.banner1-tema-2
+          .row.justify-content-center.mb-3
+            .col-7
               figure(data-aos="zoom-in-left")
-                img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt").img90.m-auto
-            ol.lista-ol--cuadro.lista-ol--separador
-              li
-                .lista-ol--cuadro__vineta
-                  span 2
-                p.mb-0 #[b Identificar lostrabajos del cliente:]
-            p.text-center.mb-0 Se deben cuestionar los trabajos que realizan, es decir, las actividades que intentan resolver en su vida laboral o personal.
+                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen').img80
 
-        .col-lg-3.mb-4.mb-lg-0.banner1-tema-2
-          .crd
-            .bottomCircle.mb-5
-              figure(data-aos="zoom-in-left")
-                img(src="@/assets/curso/temas/tema2/img8.svg", alt="alt").img90.m-auto
-            ol.lista-ol--cuadro.lista-ol--separador
-              li
-                .lista-ol--cuadro__vineta
-                  span 3
-                p.mb-0 #[b Identificar las frustraciones del público objetivo:]
-            p.text-center.mb-0 Aquello que molesta al cliente antes, durante y después de realizar un trabajo, o que le impide resolverlo.
-      
-    .bg_img_01.mt-5
-      .row.justify-content-center.mb-5
-        .col-lg-3.mb-4.mb-lg-0.banner1-tema-2
-          .crd
-            .bottomCircle.mb-5
-              figure(data-aos="zoom-in-left")
-                img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt").img90.m-auto
-            ol.lista-ol--cuadro.lista-ol--separador
-              li
-                .lista-ol--cuadro__vineta
-                  span 4
-                p.mb-0 #[b Identificar las alegrías:]
-            p.text-center.mb-0 Siendo estos los resultados o beneficios que esperan conseguir.
+          p.mb-0.text-center.text-small.pb-2 #[b 1. Seleccionar un segmento de clientes:]
+          p.text-small.text-center.pb-5 Seleccionar aquella sección de clientes que se busca perfilar.
 
-        .col-lg-3.mb-4.mb-lg-0.banner1-tema-2
-          .crd
-            .bottomCircle.mb-5
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4.banner1-tema-2
+          .row.justify-content-center.mb-3
+            .col-7
               figure(data-aos="zoom-in-left")
-                img(src="@/assets/curso/temas/tema2/img10.svg", alt="alt").img90.m-auto
-            
-            ol.lista-ol--cuadro.lista-ol--separador
-              li
-                .lista-ol--cuadro__vineta
-                  span 5
-                p.text-center.mb-0 #[b Priorizar:]
-            p.text-center.mb-0 Finalmente, se priorizan los trabajos, frustraciones y alegrías identificadas anteriormente. 
+                img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen').img80
+
+          p.mb-0.text-center.text-small #[b 2. Identificar los trabajos del cliente:]
+          p.text-small.text-center Se deben cuestionar los trabajos que realizan, es decir, las actividades que intentan resolver en su vida laboral o personal.
+
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4.banner1-tema-2
+          .row.justify-content-center.mb-3
+            .col-7
+              figure(data-aos="zoom-in-left")
+                img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen').img80
+
+          p.mb-0.text-center.text-small #[b 3. Identificar las frustraciones del público objetivo:]
+          p.text-small.text-center Aquello que molesta al cliente antes, durante y después de realizar un trabajo, o que le impide resolverlo.
+
+
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4.banner1-tema-2
+          .row.justify-content-center.mb-3
+            .col-7
+              figure(data-aos="zoom-in-left")
+                img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen').img80
+
+          p.mb-0.text-center.text-small.pb-2 #[b 4. Identificar las alegrías:]
+          p.text-small.text-center.pb-5 Siendo estos los resultados o beneficios que esperan conseguir.
+
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4.banner1-tema-2
+          .row.justify-content-center.mb-3
+            .col-7
+              figure(data-aos="zoom-in-left")
+                img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen').img80
+
+          p.mb-0.text-center.text-small.pb-2 #[b 5. Priorizar:]
+          p.text-small.text-center.pb-4 Finalmente, se priorizan los trabajos, frustraciones y alegrías identificadas anteriormente. 
         
+
+      
+
+
+
+
+
 
     .row
       p Por último, se abordará el #[b #[i buyer]] persona.  
