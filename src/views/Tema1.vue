@@ -23,7 +23,7 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          | Era del conocimiento
+          p.mb-0 #[i Era del conocimiento]
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tarjeta-1.p-5
@@ -95,7 +95,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           
           .col-md-8.mb-4.mb-md-0
-            p Si se equiparan estas a un sistema de producción, como la elaboración de pan, por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el #[i know-how] o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del know-how y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
+            p Si se equiparan estas a un sistema de producción, como la elaboración de pan, por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el #[i know-how] o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del #[i know-how] y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
 
           .col-md-4
             figure(data-aos="zoom-in-left")
@@ -119,7 +119,7 @@
         .h5.mb-2 Etapa 1 - Entrada
         p Este es el primer paso, en el cual, a través de diferentes métodos y herramientas de recolección de datos que se profundizarán más adelante, se obtienen los datos que constituyen el insumo o materia prima que será transformado. Estos deben corresponder al propósito de su recolección, es decir, el del sistema de información, por lo que deben ser seleccionados con anterioridad y objetividad.
 
-        p Por ejemplo, al interior de un hotel existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de check-in, que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estadía
+        p Por ejemplo, al interior de un hotel existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de #[i check-in], que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estadía
 
       .tarjeta.color-acento-botones.p-3(x="60%" y="11%" numero="2")
         .h5.mb-2 Etapa 2 - Transformación
@@ -128,7 +128,7 @@
         p Continuando con el ejemplo, dentro del hotel, los datos recolectados son procesados, clasificados y divididos a través del sistema, según el propósito de las salidas del mismo.
 
       .tarjeta.color-acento-botones.p-3(x="83%" y="11%" numero="3")
-        .h5.mb-2 Etapa 1 - Entrada
+        .h5.mb-2 Etapa 3 - Salida
         p La última etapa es la salida de la información. Esta es entregada como información básica, la cual, dependiendo del propósito del sistema y la percepción humana, puede ser interpretada de diferentes maneras, facilitando generar variaciones derivadas de ella y su aplicabilidad en diferentes ámbitos.  
 
         p Finalizando con el ejemplo, la información procesada desde el sistema de registro de ocupación del hotel puede encontrar diferentes salidas, como:
@@ -195,7 +195,7 @@
 
       .col-lg-5
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -401,7 +401,7 @@
                   img(src="@/assets/curso/temas/tema1/img20.svg", alt="alt")
 
               .col-lg-9
-                p Las entrevistas de profundidad, al contrario de las focus group, se enfocan en el método uno a uno, permitiendo una dirección particular al sondeo en el cual se pide a los consumidores que compartan diferencias entre marcas a diferentes niveles (atributos, beneficios y valor).
+                p Las entrevistas de profundidad, al contrario de las #[i focus group], se enfocan en el método uno a uno, permitiendo una dirección particular al sondeo en el cual se pide a los consumidores que compartan diferencias entre marcas a diferentes niveles (atributos, beneficios y valor).
 
                 p Las entrevistas a profundidad suelen tener una duración mayor a una hora, y generan mayor cantidad de información a registrar y analizar. Además, aportan una sensación de privacidad y mayor libertad para la expresión de las consideraciones del entrevistado.
 
@@ -423,7 +423,7 @@
               .col-lg-9
                 p Las conversaciones son un medio para recabar información con un enfoque no estructurado, donde el objetivo es que el interlocutor dialogue sobre sus experiencias en un tema determinado. El resultado se extrae del diálogo resultante.
 
-                p Los #[b Ejemplo:] Un investigador puede dedicarse a grabar una conversación sobre la experiencia de un visitante en determinado destino. Después el diálogo resultante se analiza por temas y líneas argumentales. El resultado será alguna perspectiva novedosa e interesante sobre los patrones de consumo de los visitantes en dicho sitio.
+                p #[b Ejemplo:] Un investigador puede dedicarse a grabar una conversación sobre la experiencia de un visitante en determinado destino. Después el diálogo resultante se analiza por temas y líneas argumentales. El resultado será alguna perspectiva novedosa e interesante sobre los patrones de consumo de los visitantes en dicho sitio.
 
           .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas semiestructuradas</b>")
             .row.justify-content-center.align-items-center
@@ -480,7 +480,7 @@
                   img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
               .col-lg-9
-                p Los investigadores hacen que quienes respondan preparen collages para representar, a través de esta herramienta, la experiencia con algún bien, servicio o marca. Luego estos son analizados para determinar su significado. Esta herramienta busca ir más allá de la respuesta concreta a una pregunta, es decir, descifrar la representación de la marca que tiene el cliente a través de imágenes, descubriendo su modo de percibir el servicio que recibe de manera más auténtica.
+                p Los investigadores hacen que quienes respondan preparen #[i collages] para representar, a través de esta herramienta, la experiencia con algún bien, servicio o marca. Luego estos son analizados para determinar su significado. Esta herramienta busca ir más allá de la respuesta concreta a una pregunta, es decir, descifrar la representación de la marca que tiene el cliente a través de imágenes, descubriendo su modo de percibir el servicio que recibe de manera más auténtica.
 
           .tarjeta.clr-paleYellow2.p-4(titulo="<b><em>Test</em> de percepción temática</b>")
             .row.justify-content-center.align-items-center

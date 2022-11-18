@@ -33,7 +33,7 @@
     #t_2_1
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 Herramientas para perfilar clientes (Mapa de la empatía, mapa de valor, buyer persona) 
+      h2 2.1 Herramientas para perfilar clientes (Mapa de la empatía, mapa de valor, #[i buyer] persona) 
 
     .row
       p Ahora bien, para perfilar clientes es importante contar con algunas herramientas, por eso a continuación se verá la siguiente información:
@@ -46,7 +46,7 @@
       
       .col-lg-7
 
-        p Las herramientas para perfilar permiten identificar, conocer y reconocer las características del cliente potencial, creando segmentos en los cuales el marketing pueda enfocarse. Para esto, es necesario pensar en el consumidor como persona y ponerse en su lugar, preguntándose si realmente se conocen las necesidades, deseos y motivos que lo conducen a adquirir un servicio o producto. Las herramientas de perfilación permiten generar un esbozo conciso del público objetivo al que se está apuntando.
+        p Las herramientas para perfilar permiten identificar, conocer y reconocer las características del cliente potencial, creando segmentos en los cuales el #[i marketing] pueda enfocarse. Para esto, es necesario pensar en el consumidor como persona y ponerse en su lugar, preguntándose si realmente se conocen las necesidades, deseos y motivos que lo conducen a adquirir un servicio o producto. Las herramientas de perfilación permiten generar un esbozo conciso del público objetivo al que se está apuntando.
 
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
            p En continuidad con lo anterior, es necesario entender que existen diferentes tipos de métodos para perfilar al cliente, en este apartado se estarán explicando tres de ellos: El mapa de empatía, el mapa de valor y el buyer persona.
@@ -197,13 +197,13 @@
     .row.mt-5
       .col-lg-7
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Para conocer el paso a paso en el desarrollo del buyer persona, ver el Anexo 2.
+           p Para conocer el paso a paso en el desarrollo del #[i buyer] persona, ver el Anexo 2.
 
            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo2.docx')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-             p #[b Anexo 2. Desarrollo de buyer persona]
+             p #[b Anexo 2. Desarrollo de #[i buyer] persona]
 
     .row.mt-3
       p A continuación, encontrará sobre la prospección de clientes.

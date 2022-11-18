@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'El cliente potencial',
     descripcionCurso:
-      'Tener claro cuál es el cliente potencial de la organización es de vital importancia para enfocar los esfuerzos comerciales y de marketing. Para lograrlo se pueden llevar a cabo herramientas y técnicas que permitan establecer la conexión entre las bondades de los productos o servicios y las necesidades del segmento de mercado.',
+      'Tener claro cuál es el cliente potencial de la organización es de vital importancia para enfocar los esfuerzos comerciales y de <em>marketing</em>. Para lograrlo se pueden llevar a cabo herramientas y técnicas que permitan establecer la conexión entre las bondades de los productos o servicios y las necesidades del segmento de mercado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -72,7 +72,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Herramientas para perfilar clientes (Mapa de la empatía, mapa de valor, buyer persona)',
+              'Herramientas para perfilar clientes (Mapa de la empatía, mapa de valor, <em>buyer</em> persona)',
             hash: 't_2_1',
           },
           {
@@ -146,7 +146,7 @@ export default {
         'Servicio Nacional de Turismo -Sernatur (2017). MANUAL DE DISEÑO Experiencias Turísticas.',
       tipo: 'Libro',
       link:
-        'Perfil del cliente potencial / Herramientas para perfilar clientes potenciales	Servicio Nacional de Turismo -Sernatur (2017). MANUAL DE DISEÑO Experiencias Turísticas.	Libro	https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf',
+        'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf',
     },
     {
       tema: 'Datos e información',
@@ -160,7 +160,7 @@ export default {
       referencia:
         'Osterwalder, A., Pigneur, Y., Bernarda, G. & Smith, A (2018) <em>Diseñando la propuesta de valor</em>. Deusto',
       tipo: 'Libro (resumen)',
-      link: 'Resumen_propuesta_de_valor.pdf (sinca.gob.mx)',
+      link: 'https://sinca.gob.mx/pdf/comunidad/Resumen_propuesta_de_valor.pdf',
     },
   ],
   glosario: [
@@ -192,7 +192,7 @@ export default {
     {
       termino: '<em>Leads</em>',
       significado:
-        'Leads: 	Persona o empresa que haya expresado interés en los productos o servicios. Esta definición puede variar según si se está hablando con el equipo de <em>marketing</em> o de ventas. Para el primero, es un usuario que ha entregado sus datos y pasa a ser un registro en la base de datos, con el que la organización puede interactuar. (Inboundcycle, 2022).',
+        'Persona o empresa que haya expresado interés en los productos o servicios. Esta definición puede variar según si se está hablando con el equipo de <em>marketing</em> o de ventas. Para el primero, es un usuario que ha entregado sus datos y pasa a ser un registro en la base de datos, con el que la organización puede interactuar. (Inboundcycle, 2022).',
     },
     {
       termino: 'Mapa de valor',
@@ -258,8 +258,12 @@ export default {
     {
       referencia:
         'Artículo de revista	Maldonado Córdova, A. V., & Franco Gómez, M. C. (2018) Principios de marketing y competitividad como estrategias claves para el desarrollo de las MIPYMES en la provincia de El Oro. <em>INNOVA Research Journal</em>, 3(10.1) pp. 195-201',
-      link:
+      link: '',
+    },
+    {
+      referencia:
         'Mendoza, S. H., & Ávila, D. D. (2020). Técnicas e instrumentos de recolección de datos. <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA, 9</em>(17), pp. 51-53.',
+      link: '',
     },
     {
       referencia:
