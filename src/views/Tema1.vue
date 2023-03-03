@@ -10,11 +10,10 @@
     .row.justify-content-center.align-items-center.mb-5
       
       .col-lg-7
-        .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Para ampliar la información descrita anteriormente, es necesario ver lo siguiente:
+        p En la era de conocimiento denominada Sistemas de Información,  gracias a la cantidad de esta disponible y accesible para todos, la producción de contenidos ya no solo está en manos de los científicos, diseñadores, estudiosos o artistas, sino que  ahora todos pueden ser generadores de productos digitales como videos, imágenes y textos para llegar a diferentes públicos objetivos.
 
-        p.mt-3 En la era de conocimiento, que es denominada de esta manera gracias a la cantidad de información disponible y accesible para todos, la producción de contenidos ya no solo está en manos de los científicos, estudiosos o artistas; ahora todos pueden ser generadores de este, en video, imagen y texto. 
-        
+        p Para ampliar la información acerca de los sistemas de información, es necesario ver lo siguiente:
+
       .col-lg-5
         figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img1.png", alt="alt")
@@ -23,7 +22,7 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[i Era del conocimiento]
+          h3.mb-0 Era del conocimiento
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tarjeta-1.p-5
@@ -50,37 +49,50 @@
           
         p.text-center La popular frase ‘quien tiene la información tiene el poder’, precisamente hace referencia a la importancia demostrada de tener acceso a la información correcta de forma oportuna, para la elección de alternativas de solución a una situación o disyuntiva que se presente. 
 
-    .row.mt-5
-      .col-lg-7
-        .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Para ampliar esta información ver: Anexo 1, Sistemas de información 
-
-           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank")
+    .row.mt-5.justify-content-center
+      .col-lg-8
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-             p #[b Anexo 1. Sistemas de información]
+             p #[b Anexo 1.] Para ampliar esta información ver: Anexo 1, Sistemas de información.
+
+           
 
     .row.mt-3
-      p Para ampliar la información descrita anteriormente, es necesario ver lo siguiente:
-
-    separador
-
-    #t_1_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1  Funcionamiento y componentes
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          h3.mb-0 Funcionamiento y componentes
 
     .row.justify-content-center.align-items-center.mb-5
       
       .col-lg-8
       
-        p Los sistemas de información pueden tener un alcance local, regional, nacional, internacional, o funcionar exclusivamente al interior de una organización, en apoyo a la buena gestión de esta. También pueden existir varios cumpliendo diferentes propósitos, relacionándose entre sí o alimentando a otros de mayor alcance. No obstante, sin importar la trascendencia, propósito o tema que tengan, todos ellos funcionan de manera similar; y esto es a través de tres etapas fundamentales: entradas, transformación y salidas. 
+        p Los sistemas de información pueden tener un alcance local, regional, nacional, internacional, incluso,  funcionar exclusivamente al interior de una organización, en apoyo a la buena gestión de esta. También pueden existir  simultáneamente sistemas que  cumplen diferentes propósitos, relacionándose entre sí o alimentando a otros de mayor alcance. No obstante, sin importar la trascendencia, propósito o tema que tengan, todos ellos funcionan de manera similar; y esto es a través de tres etapas fundamentales que marcan el funcionamiento de todo sistema, dejando ver sus componentes y estructura; estas son: 
+
+        ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            p.mb-0 Entradas.
+
+          li 
+            i.fas.fa-angle-right
+            p.mb-0 Transformación.
+
+          li 
+            i.fas.fa-angle-right
+            p.mb-0 Salidas.
+
+        .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
+           p Si estas se equiparan a un sistema de producción, como la elaboración de pan por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el know-how o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del <i>know-how</i> y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
+
 
       .col-lg-4
         figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
 
+    
     .tarjeta.tarjeta--azul.p-4.banner1-tema-1
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
@@ -113,19 +125,20 @@
     ImagenInfografica.color-acento-botones.banner2-tema-1
       template(v-slot:imagen)
         figure(data-aos="zoom-in-left")
-          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones.p-3(x="37%" y="11%" numero="1")
         .h5.mb-2 Etapa 1 - Entrada
-        p Este es el primer paso, en el cual, a través de diferentes métodos y herramientas de recolección de datos que se profundizarán más adelante, se obtienen los datos que constituyen el insumo o materia prima que será transformado. Estos deben corresponder al propósito de su recolección, es decir, el del sistema de información, por lo que deben ser seleccionados con anterioridad y objetividad.
+        p Este es el primer paso, en el cual, a través de diferentes métodos y herramientas de recolección de datos, se obtiene la información que constituye el insumo o materia prima que será transformado. Estos deben corresponder al propósito de su recolección, es decir, el del sistema de información, por lo que deben ser seleccionados con anterioridad y objetividad.
 
-        p Por ejemplo, al interior de un hotel existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de #[i check-in], que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estadía
+        p En el sector turístico, por ejemplo, al interior de un hotel, existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de check-in, que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estancia. 
 
       .tarjeta.color-acento-botones.p-3(x="60%" y="11%" numero="2")
         .h5.mb-2 Etapa 2 - Transformación
         p En esta etapa los datos anteriormente seleccionados se procesan y transforman, haciendo uso de diferentes métodos de procesamiento (selección, organización, tabulación, validación, cálculo e interpretación). Hoy en día este se encuentra muy unido a la tecnología, ya que le permite realizar de una manera más rápida, efectiva y automatizada su labor. 
 
-        p Continuando con el ejemplo, dentro del hotel, los datos recolectados son procesados, clasificados y divididos a través del sistema, según el propósito de las salidas del mismo.
+        p Continuando con el ejemplo dentro del hotel, los datos recolectados son procesados, clasificados y divididos a través del sistema, según el propósito de las salidas del mismo.
+
 
       .tarjeta.color-acento-botones.p-3(x="83%" y="11%" numero="3")
         .h5.mb-2 Etapa 3 - Salida
@@ -148,7 +161,7 @@
 
           li
             i.lista-ul__vineta
-            p.mb-0 El Revenue Per Available Room (RevPAR), que es un indicador hotelero que muestra el ingreso en un periodo determinado por habitación disponible.
+            p.mb-0 El <i>Revenue Per Available Room (RevPAR)</i>, es un indicador hotelero que muestra el ingreso en un periodo determinado por habitación disponible.
 
           li
             i.lista-ul__vineta
@@ -156,7 +169,7 @@
 
     .row.mt-5
       p Como se puede apreciar, los sistemas de información funcionan a través de la interrelación coordinada de los componentes que integran cada etapa (entrada, transformación y salida), que, a su vez, se estructuran de acuerdo a las necesidades de cada organización. A continuación, visualice la siguiente infografía:
-      
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -175,23 +188,21 @@
 
     
 
-    separador
-
-    #t_1_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Datos y datos comerciales 
-
+    .row.mt-3
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          h3.mb-0 Datos y datos comerciales 
 
     .row.justify-content-center.align-items-center.mb-5
       
       .col-lg-7
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Como se mencionaba anteriormente, los datos son los componentes de la etapa de entrada y hacen referencia a todo registro de hechos reales o mediciones registradas sobre fenómenos, es decir, un dato es un símbolo o un conjunto de símbolos que se usan para representar algo que sucedió.
+           p Como se mencionaba anteriormente, los datos son los elementos de la etapa de entrada y hacen referencia a todo registro de hechos reales o de mediciones registradas sobre fenómenos, es decir, un dato es un símbolo o un conjunto de símbolos que se usan para representar algo que sucedió.
 
         p.mt-3 Estas relaciones entre símbolos y lo que ellas representan son la esencia de lo que se denomina información, por lo tanto, son datos interpretados, proporcionados con semántica (Beynon-Davies, 2018). La información, a su vez, es la salida de la transformación de estos mismos, y surge para apoyar la toma de decisiones o definir la relación entre dos o más hechos. 
 
-        p.mt-3 Para comprender mejor lo dicho anteriormente, es momento de ejemplificar:
+        p.mt-3 Para comprender mejor, es momento de ejemplificar:
 
       .col-lg-5
         figure(data-aos="zoom-in-left")
@@ -219,8 +230,8 @@
       
       .col-lg-7
 
-        p.mt-3 Por consiguiente, al contar con registros diarios de habitaciones disponibles y ocupadas, sumado al registro de las acciones realizadas por los huéspedes en temas de consumo, facturación, preferencias, reclamos, peticiones y demás, se configuran ya un conjunto de elementos que se requiere organizar para que, en el momento en que se necesite, esté disponible y sea de fácil acceso; siendo esto lo que denominamos una base de datos.
-        
+        p.mt-3 Por consiguiente, al contar con registros diarios de habitaciones disponibles y ocupadas, sumado al registro de las acciones realizadas por los huéspedes en temas de consumo, facturación, preferencias, reclamos, peticiones y demás, se configuran un conjunto de elementos que se requieren organizar para que, en el momento en que se necesite, esté disponible y sea de fácil acceso; siendo esto lo que denominamos una base de datos.
+
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
            p Es por esto que una base de datos se puede definir, de acuerdo a Beynon-Davies (2018), como una colección organizada de hechos o aserciones positivas cuyo significado representa algún universo del discurso (UdD), es decir, en una clasificación y en la relación entre las diferentes tipificaciones creadas.
 
@@ -229,8 +240,8 @@
           img(src="@/assets/curso/temas/tema1/img13.png", alt="alt")
 
     .row.mt-5
-      p Como podemos ver en esta imagen, existe un listado de hechos (número de habitaciones disponibles para la venta y número de habitaciones ocupadas) que están organizados por los meses del año en que tuvieron lugar, y además, se muestra su porcentaje de ocupación promedio por mes y los totales por año, configurando una base de datos de la ocupación en un hotel.
-    
+      p Como se puede ven en la imagen que se presenta a continuación, existe un listado de hechos (número de habitaciones disponibles para la venta y número de habitaciones ocupadas) que están organizados por los meses del año en que tuvieron lugar, además, se muestra su porcentaje de ocupación promedio por mes y los totales por año, configurando una base de datos de la ocupación en un hotel.
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-5
@@ -328,7 +339,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-5
-           p En el caso de los datos comerciales, se definen como todos los hechos relacionados con los clientes actuales y potenciales. Sus comportamientos y relación con los productos y servicios de la empresa. Ejemplos de bases datos comerciales serían: listados de clientes actuales por producto, de clientes potenciales por producto, de productos vendidos en un determinado segmento de mercado, de preferencias de los consumidores en relación con los productos y servicios de la empresa, calificación de los servicios recibidos por los clientes en un periodo de tiempo determinado, entre otros.
+           p En el caso de los datos comerciales, se definen como todos los hechos relacionados con los clientes actuales y potenciales; sus comportamientos y relación con los productos y servicios de la empresa. Ejemplos de bases datos comerciales serían: listados de clientes actuales por producto, de clientes potenciales por producto, de productos vendidos en un determinado segmento de mercado, de preferencias de los consumidores en relación con los productos y servicios de la empresa, calificación de los servicios recibidos por los clientes en un periodo de tiempo determinado, entre otros.
 
       .col-lg-5
         figure(data-aos="zoom-in-left")
@@ -360,21 +371,18 @@
             b Datos de su propia oferta de productos y servicios:
           p.text-center.text-small.pb-5 Para esto las empresas acostumbran tener una clasificación según sea su necesidad de análisis. Algunas clasifican según la tipología de productos y servicios que tienen y otras lo asocian al nivel de precio o al tipo de cliente que los consume; o incluso un mix de estas clasificaciones.
       
-    separador
-
-    #t_1_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Métodos e instrumentos de recolección de datos 
+    .row.mt-3
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          h3.mb-0 Métodos e instrumentos de recolección de datos 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Es momento de profundizar más sobre esta teoría:
-        
-        p.mt-3 Según Mendoza y Ávila (2020), la recolección de datos es considerada como una medición y el instrumento para su recolección está orientado a crear las condiciones para ello. Es una precondición para obtener el conocimiento científico. Existen dos grandes formas para realizar la labor de recaudo: a partir de fuentes primarias y secundarias. 
+           p Según Mendoza y Ávila (2020), la recolección de datos es considerada como una medición y el instrumento para su recolección está orientado a crear las condiciones para ello. Es una precondición para obtener el conocimiento científico. Existen dos grandes formas para realizar la labor de recaudo: a partir de fuentes primarias y secundarias. 
 
-        p Las fuentes secundarias permiten realizar consultas de documentos, investigaciones, artículos, libros, etc. escritas por otros autores que indagaron el tema con anterioridad. Estas cumplen la función de respaldar la base teórica del proceso de búsqueda. Las fuentes primarias son aquellas en las que los investigadores recogen de primera mano los datos necesarios, haciendo uso de herramientas o instrumentos de recolección.  Algunas de estas son:
+        p.mt-3 Las fuentes secundarias permiten realizar consultas de documentos, investigaciones, artículos, libros, entre otros; escritas por otros autores que indagaron el tema con anterioridad. Estas cumplen la función de respaldar la base teórica del proceso de búsqueda. Las fuentes primarias son aquellas en las que los investigadores recogen de primera mano los datos necesarios, haciendo uso de herramientas o instrumentos de recolección.  Algunas de estas son:
 
       .col-lg-5
         figure(data-aos="zoom-in-left")
@@ -391,8 +399,8 @@
 
               .col-lg-9
                 p Es una entrevista no estructurada, de flujo libre, que se realiza con un pequeño grupo de entre seis y diez personas, en la que un moderador entrenado sigue un formato flexible.
-              
-                p Los #[i focus group], son un método que permite que las personas entrevistadas expresen con facilidad sus sentimientos, ansiedades, frustraciones reales y convicciones, con sus propias palabras. Son fáciles, rápidas, con perspectivas múltiples y alto grado de escrutinio. Es importante tener en cuenta la labor del moderador, la selección de los integrantes, el diseño de la guía de discusión y si esta se llevará a cabo de manera virtual o presencial. 
+
+                p Los <i>focus group</i>, son un método que permite que las personas entrevistadas se  expresen con facilidad sus sentimientos, ansiedades, frustraciones reales y convicciones, con sus propias palabras. Son fáciles, rápidas, con perspectivas múltiples y alto grado de escrutinio. Es importante tener en cuenta la labor del moderador, la selección de los integrantes, el diseño de la guía de discusión y si esta se llevará a cabo de manera virtual o presencial. 
 
           .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas de profundidad</b>")
             .row.justify-content-center.align-items-center
@@ -471,8 +479,8 @@
                   img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt")
 
               .col-lg-9
-                p La observación integra al investigador o a quien recolecta los datos con el lugar de estudio, en el cual se encarga de ver y registrar todo aquello que encuentra o sucede con relación al tema. El registro de los datos producto de un proceso de observación debe hacerse de manera ordenada y sincrónica para que su análisis tenga coherencia.
-    
+                p La observación integra al investigador o a quien recolecta los datos con el lugar de estudio, en el cual se encarga de ver y registrar todo aquello que encuentra o sucede con relación al tema. El registro de los datos, producto de un proceso de observación debe hacerse de manera ordenada y sincrónica para que su análisis tenga coherencia.
+
           .tarjeta.clr-paleYellow.p-4(titulo="<b><em>Collages</em></b>")
             .row.justify-content-center.align-items-center
               .col-lg-3
@@ -489,8 +497,8 @@
                   img(src="@/assets/curso/temas/tema1/img26.png", alt="alt")
 
               .col-lg-9
-                p Presenta a los sujetos uno o varios cuadros de situaciones ambiguas en los que consumidores y productos son el centro de atención.  El investigador procede a pedirle al sujeto que diga lo que sucede en los cuadros y lo que sucederá después. Por lo tanto, se evocan temas con base en el uso interpretativo - perceptivo (percepción) de los cuadros.
-      
+                p Presenta a los sujetos uno o varios cuadros de situaciones ambiguas en los que consumidores y productos son el centro de atención.  El investigador procede a pedirle al sujeto que diga lo que sucede en los cuadros y lo que sucederá después. Por lo tanto, se evocan temas con base en el uso interpretativo - perceptivo de los cuadros.
+
           .tarjeta.clr-paleYellow.p-4(titulo="<b>Encuestas</b>")
             .row.justify-content-center.align-items-center
               .col-lg-3

@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/ar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Actividad didáctica
-        p No olvide desarrollar la actividad interactiva que le permitirá conocer lo aprendido durante el desarrollo de este componente formativo.
+        .titulo-segundo.color-acento-contenido
+          h2 El cliente potencial
+        p A partir de lo anterior, se puede decir que los leads en el turismo cumplen la función de ayudar a identificar y perfilar los posibles turistas potenciales, clasificándolos así mismo en fríos, templados y calientes. En conjunto con dichas herramientas de perfilamiento, las cuales se tratarán más adelante, facilitan a la empresa o el prestador de servicios turísticos identificar su público objetivo, prospectando las personas que probablemente si viajarán al destino y adquirirán los servicios.
 
         p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo. De acuerdo con la información planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
         .tarjeta.actividad.p-3

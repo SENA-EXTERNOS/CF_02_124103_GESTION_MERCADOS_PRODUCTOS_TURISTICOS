@@ -39,26 +39,6 @@ export default {
         numero: '1',
         titulo: 'Sistemas de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Funcionamiento y componentes',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Datos y datos comerciales',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Métodos e instrumentos de recolección de datos',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
@@ -67,27 +47,6 @@ export default {
         numero: '2',
         titulo: 'Perfil del cliente potencial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Herramientas para perfilar clientes (Mapa de la empatía, mapa de valor, <em>buyer</em> persona)',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Prospección de clientes',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Técnicas de evaluación de clientes potenciales',
-            hash: 't_2_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -135,7 +94,7 @@ export default {
       tema:
         'Perfil del cliente potencial / Herramientas para perfilar clientes potenciales',
       referencia:
-        'Beltrán Mora, M. N., Parrales Carvajal, V. M., & Ledesma Álvarez, G. D. (2019). El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial. <em>Recimundo</em>, 3(3), pp. 659-681. ',
+        'Beltrán Mora, M. N., Parrales Carvajal, V. M., & Ledesma Álvarez, G. D. (2019). <i>El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial</i>. Recimundo, 3(3), pp. 659-681.',
       tipo: 'Artículo de revista científica de investigación',
       link: 'https://recimundo.com/index.php/es/article/view/615',
     },
@@ -143,7 +102,7 @@ export default {
       tema:
         'Perfil del cliente potencial / Herramientas para perfilar clientes potenciales',
       referencia:
-        'Servicio Nacional de Turismo -Sernatur (2017). MANUAL DE DISEÑO Experiencias Turísticas.',
+        'Servicio Nacional de Turismo -Sernatur (2017). <i>MANUAL DE DISEÑO</i> Experiencias Turísticas.',
       tipo: 'Libro',
       link:
         'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf',
@@ -151,7 +110,7 @@ export default {
     {
       tema: 'Datos e información',
       referencia:
-        'Departamento Administrativo Nacional de Estadística - DANE (2016) Video: <em>Los datos y la información.</em>',
+        'Departamento Administrativo Nacional de Estadística - DANE (2016) Video: <i>Los datos y la información</i>. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IEx7KVfOqfM',
     },
@@ -167,7 +126,7 @@ export default {
     {
       termino: 'Datos',
       significado:
-        'Datos:	Registro de hechos reales o mediciones hechas sobre fenómenos, es decir, un símbolo o un conjunto de símbolos que se usan para representar algo que sucedió',
+        'registro de hechos reales o mediciones hechas sobre fenómenos, es decir, un símbolo o un conjunto de símbolos que se usan para representar algo que sucedió.',
     },
     {
       termino: '<em>Early adopter</em>',
@@ -218,71 +177,71 @@ export default {
   referencias: [
     {
       referencia:
-        'Beltrán Mora, M. N., Parrales Carvajal, V. M., & Ledesma Álvarez, G. D. (2019). El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial. <em>Recimundo</em>, 3(3), pp. 659-681.',
+        'Beltrán Mora, M. N., Parrales Carvajal, V. M., & Ledesma Álvarez, G. D. (2019). <i>El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial</i>. <Recimundo, 3(3), pp. 659-681.',
       link: '',
     },
     {
       referencia:
-        'Beynon-Davies, P. (2018). Sistemas de bases de datos. Reverté.',
+        'Beynon-Davies, P. (2018). <i>Sistemas de bases de datos</i>. Reverté.',
       link: '',
     },
     {
       referencia:
-        'Bravo Cobeña, C., Valdivieso Guerra, P. & Arregui Pozo, R. (2018). Los sistemas de información en la toma de decisiones gerenciales en las empresas comerciales de Portoviejo. <em>Revista Eca Sinergia</em>, 9 (2), pp. 45-54. ',
+        'Bravo Cobeña, C., Valdivieso Guerra, P. & Arregui Pozo, R. (2018). <i>Los sistemas de información en la toma de decisiones gerenciales en las empresas comerciales de Portoviejo</i>. Revista Eca Sinergia, 9 (2), pp. 45-54. ',
       link: '',
     },
     {
       referencia:
-        'Gallardo, A. T. (2019). Elementos de un sistema de información contable efectivo. Quipukamayoc, 27(53), pp. 73-79.',
+        'Gallardo, A. T. (2019). <i>Elementos de un sistema de información contable efectivo</i>. Quipukamayoc, 27(53), pp. 73-79.',
       link: '',
     },
     {
       referencia:
-        'Godoy, R., &; Rischele, L. (2021). El poder de la excelencia comercial: Solución práctica de cómo potencializar los resultados de su empresa. Escola de Gestão Aquila.',
+        'Godoy, R., &; Rischele, L. (2021). <i>El poder de la excelencia comercial: Solución práctica de cómo potencializar los resultados de su empresa</i>. Escola de Gestão Aquila.',
       link: '',
     },
     {
       referencia:
-        'Huerta-Riveros, P. C., Gaete-Feres, H. G., & Pedraja-Rejas, L. M. (2020). Dirección estratégica, sistema de información y calidad. El caso de una universidad estatal chilena. <em>Información tecnológica</em>, 31(2), pp. 253-266.',
+        'Huerta-Riveros, P. C., Gaete-Feres, H. G., & Pedraja-Rejas, L. M. (2020). <i>Dirección estratégica, sistema de información y calidad. El caso de una universidad estatal chilena</i>. Información tecnológica, 31(2), pp. 253-266.',
       link: '',
     },
     {
       referencia:
-        'Impulsa (s.f.) ¿Qué es prospectar? [Impulsa]. <em>Blogspot</em>.',
+        'Impulsa (s.f.) <i>¿Qué es prospectar?</i> [Impulsa]. Blogspot.',
       link: 'https://www.sistemaimpulsa.com/blog/que-es-prospectar/ ',
     },
     {
-      referencia: 'Intelectium (2022) ¿Qué es un Early Adopter?',
+      referencia: 'Intelectium (2022) <i>¿Qué es un Early Adopter?</i>',
       link: 'https://intelectium.com/early-adopter/ ',
     },
     {
       referencia:
-        'Artículo de revista	Maldonado Córdova, A. V., & Franco Gómez, M. C. (2018) Principios de marketing y competitividad como estrategias claves para el desarrollo de las MIPYMES en la provincia de El Oro. <em>INNOVA Research Journal</em>, 3(10.1) pp. 195-201',
+        'Artículo de revista	Maldonado Córdova, A. V., & Franco Gómez, M. C. (2018) <i>Principios de marketing y competitividad como estrategias claves para el desarrollo de las MIPYMES en la provincia de El Oro</i>. INNOVA Research Journal, 3(10.1) pp. 195-201',
       link: '',
     },
     {
       referencia:
-        'Mendoza, S. H., & Ávila, D. D. (2020). Técnicas e instrumentos de recolección de datos. <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA, 9</em>(17), pp. 51-53.',
+        'Mendoza, S. H., & Ávila, D. D. (2020). <i>Técnicas e instrumentos de recolección de datos</i>. Boletín Científico de las Ciencias Económico Administrativas del ICEA, 9(17), pp. 51-53.',
       link: '',
     },
     {
       referencia:
-        'Mora, M. N. B., Carvajal, V. M. P., & Álvarez, G. D. L. (2019). El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial. <em>RECIMUNDO</em>, 3(3 ESP), pp. 659-681.  ',
+        'Mora, M. N. B., Carvajal, V. M. P., & Álvarez, G. D. L. (2019). <i>El Buyer Persona como factor clave entre las tendencias en Gestión Empresarial</i>. RECIMUNDO, 3(3 ESP), pp. 659-681.  ',
       link: '',
     },
     {
       referencia:
-        'Osterwalder, A., Pigneur, Y., Bernarda, & G. Smith, A (2018), Diseñando la propuesta de valor. Deusto.',
+        'Osterwalder, A., Pigneur, Y., Bernarda, & G. Smith, A (2018), <i>Diseñando la propuesta de valor</i>. Deusto.',
       link: '',
     },
     {
       referencia:
-        'Servicio Nacional de Turismo -Sernatur (2017). MANUAL DE DISEÑO Experiencias Turísticas.',
+        'Servicio Nacional de Turismo -Sernatur (2017). <i>MANUAL DE DISEÑO</i> Experiencias Turísticas.',
       link: '',
     },
     {
       referencia:
-        'Inboundcycle. (2022). Buyer persona: el factor clave en tu estrategia de marketing y ventas. InboundCycle:',
+        'Inboundcycle. (2022). <i>Buyer persona: el factor clave en tu estrategia de marketing y ventas</i>. InboundCycle:',
       link: 'https://www.inboundcycle.com/buyer-persona ',
     },
   ],
