@@ -51,7 +51,7 @@
 
     .row.mt-5.justify-content-center
       .col-lg-8
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -85,41 +85,15 @@
             p.mb-0 Salidas.
 
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Si estas se equiparan a un sistema de producción, como la elaboración de pan por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el know-how o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del <i>know-how</i> y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
+           p Si estas se equiparan a un sistema de producción, como la elaboración de pan por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el <i>know-how</i> o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del <i>know-how</i> y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
 
 
       .col-lg-4
         figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
 
-    
-    .tarjeta.tarjeta--azul.p-4.banner1-tema-1
-      SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-md-8.mb-4.mb-md-0
-            p Estas tres etapas marcan el funcionamiento de todo sistema, dejando ver sus componentes y estructura. 
-
-          .col-md-4
-            figure(data-aos="zoom-in-left")
-              img(src='@/assets/curso/temas/tema1/img6.png', alt='Texto que describa la imagen')
-              
-
-        .row.justify-content-center.align-items-center.my-lg-4
-          
-          .col-md-8.mb-4.mb-md-0
-            p Si se equiparan estas a un sistema de producción, como la elaboración de pan, por ejemplo, la etapa de entrada haría referencia a los ingredientes de preparación, que serían la materia prima, la mano de obra, la energía, el capital y el #[i know-how] o conocimiento requerido para prepararlo; el proceso sería la transformación de los ingredientes a través del #[i know-how] y el uso de las herramientas. Finalmente, la salida sería el pan listo para consumir. 
-
-          .col-md-4
-            figure(data-aos="zoom-in-left")
-              img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
-
     .row.mt-5
-      p Ahora, si se lleva un sistema de información en el sector turístico, más exactamente en la industria hotelera, ¿qué se puede encontrar?    
-
-    .row.justify-content-justify.align-items-center.mb-5
-      .col-lg-7
-        .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p Se encuentran los siguientes componentes en cada etapa: 
+      p Se encuentran los siguientes componentes en cada etapa: 
 
 
     ImagenInfografica.color-acento-botones.banner2-tema-1
@@ -131,7 +105,7 @@
         .h5.mb-2 Etapa 1 - Entrada
         p Este es el primer paso, en el cual, a través de diferentes métodos y herramientas de recolección de datos, se obtiene la información que constituye el insumo o materia prima que será transformado. Estos deben corresponder al propósito de su recolección, es decir, el del sistema de información, por lo que deben ser seleccionados con anterioridad y objetividad.
 
-        p En el sector turístico, por ejemplo, al interior de un hotel, existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de check-in, que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estancia. 
+        p En el sector turístico, por ejemplo, al interior de un hotel, existe un sistema de información que almacena y transforma el registro de ocupación del hotel. Este los recolecta a través del proceso de <i>check-in</i>, que recoge con números la cantidad de personas que entran y salen, además de sus edades, el tiempo que se van a hospedar, sus datos básicos, y si realiza algún pedido especial durante su estancia. 
 
       .tarjeta.color-acento-botones.p-3(x="60%" y="11%" numero="2")
         .h5.mb-2 Etapa 2 - Transformación
@@ -170,17 +144,7 @@
     .row.mt-5
       p Como se puede apreciar, los sistemas de información funcionan a través de la interrelación coordinada de los componentes que integran cada etapa (entrada, transformación y salida), que, a su vez, se estructuran de acuerdo a las necesidades de cada organización. A continuación, visualice la siguiente infografía:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.png')})`}"
-          )
 
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Los sistemas de información tienen componentes que hacen parte del proceso que permite que los datos se transformen en información. 
-          
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-10.col-xs-12
         figure(data-aos="zoom-in-left")
@@ -204,20 +168,21 @@
 
         p.mt-3 Para comprender mejor, es momento de ejemplificar:
 
+        
+
       .col-lg-5
         figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-5
-           p Hora de ver la relación entre el dato y la información en el sistema.
+    .row.mt-5
+      p.mt-3 Relación entre el dato y la información en el sistema.
 
-        figure(data-aos="zoom-in-left").mt-5
+      figure(data-aos="zoom-in-left").mt-5
           img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
 
-    .row.mt-5
-      p La figura muestra cómo los datos que entran al sistema se conjugan entre sí a través de una fórmula en la etapa de transformación, que arroja como resultado el porcentaje de ocupación del hotel para esa fecha.
+        
+      p.mt-3 La figura muestra cómo los datos que entran al sistema se conjugan entre sí a través de una fórmula en la etapa de transformación, que arroja como resultado el porcentaje de ocupación del hotel para esa fecha.
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -245,7 +210,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-5
-           p Esta muestra el nivel de ocupación con base a sus habitaciones disponibles de manera mensual. Algo a resaltar es que estas últimas no fueron iguales en todos los meses debido a los procesos de mantenimiento que tuvieron lugar en algunas de ellas por periodos de tiempo.
+           p Esta muestra el nivel de ocupación con base a sus habitaciones disponibles de manera mensual. Algo a resaltar es que estas últimas no fueron iguales en todos los meses debido a los procesos de mantenimiento que tuvieron lugar en algunas de ellas por períodos de tiempo.
     
     
     .row.justify-content-center.align-items-center.mb-5

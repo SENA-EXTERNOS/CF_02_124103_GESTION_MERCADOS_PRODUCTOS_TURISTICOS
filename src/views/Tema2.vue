@@ -166,7 +166,7 @@
       .col-lg-12
 
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-           p El #[i buyer] persona trata sobre “la  construcción de un modelo de cliente idóneo para un  producto o servicio que, teniendo en cuenta datos sociodemográficos precisos, así como también información sobre aspectos tales como conducta online, personal, profesional y de la relación con la empresa que ofrece el  producto o servicio, puede llegar a ser uno de los pilares trascendentales en el inbound marketing (entendido como la herramienta para producir contenido de valor que despierte el interés de la audiencia objetivo) y no solamente por el hecho de conocer las inquietudes, intereses y dolores que pueda tener ese cliente al que se quiere llegar, sino además, se traduce en el cómo y dónde ese cliente busca el producto o servicio.” (Valdés, 2019; citado en Beltrán Mora, Parrales Carvajal, y Ledesma Álvarez, 2019, p. 672).
+           p El #[i buyer] persona trata sobre “la  construcción de un modelo de cliente idóneo para un  producto o servicio que, teniendo en cuenta datos sociodemográficos precisos, así como también información sobre aspectos tales como conducta online, personal, profesional y de la relación con la empresa que ofrece el  producto o servicio, puede llegar a ser uno de los pilares trascendentales en el <i>inbound marketing</i> (entendido como la herramienta para producir contenido de valor que despierte el interés de la audiencia objetivo) y no solamente por el hecho de conocer las inquietudes, intereses y dolores que pueda tener ese cliente al que se quiere llegar, sino además, se traduce en el cómo y dónde ese cliente busca el producto o servicio.” (Valdés, 2019; citado en Beltrán Mora, Parrales Carvajal, y Ledesma Álvarez, 2019, p. 672).
 
     .row.mt-3
       ul.lista-ul--color
@@ -184,7 +184,7 @@
         .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
            p Para conocer el paso a paso en el desarrollo del #[i buyer] persona, ver el Anexo 2.
 
-           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo2.docx')" target="_blank")
+           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

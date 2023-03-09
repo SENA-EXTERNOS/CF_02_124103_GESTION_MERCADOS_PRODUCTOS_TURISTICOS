@@ -11,9 +11,8 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 El cliente potencial
-        p A partir de lo anterior, se puede decir que los leads en el turismo cumplen la función de ayudar a identificar y perfilar los posibles turistas potenciales, clasificándolos así mismo en fríos, templados y calientes. En conjunto con dichas herramientas de perfilamiento, las cuales se tratarán más adelante, facilitan a la empresa o el prestador de servicios turísticos identificar su público objetivo, prospectando las personas que probablemente si viajarán al destino y adquirirán los servicios.
-
         p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo. De acuerdo con la información planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
