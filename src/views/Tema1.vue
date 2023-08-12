@@ -355,8 +355,8 @@
 
     .row
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-contenido.mb-5        
-          .tarjeta.clr-paleYellow.p-4(titulo="<b>Entrevistas de <em>focus group</em></b>")
+        TabsC.color-acento-contenido.mb-5        
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Entrevistas de <em>focus group</em>")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -367,7 +367,7 @@
 
                 p Los <i>focus group</i>, son un método que permite que las personas entrevistadas se  expresen con facilidad sus sentimientos, ansiedades, frustraciones reales y convicciones, con sus propias palabras. Son fáciles, rápidas, con perspectivas múltiples y alto grado de escrutinio. Es importante tener en cuenta la labor del moderador, la selección de los integrantes, el diseño de la guía de discusión y si esta se llevará a cabo de manera virtual o presencial. 
 
-          .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas de profundidad</b>")
+          .tarjeta.clr-paleYellow2.p-4.mb-3(titulo="Entrevistas de profundidad")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -387,7 +387,7 @@
                 p.bm-0 c) La emoción que generan.
 
          
-          .tarjeta.clr-paleYellow.p-4(titulo="<b>Conversaciones</b>")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Conversaciones")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -398,7 +398,7 @@
 
                 p #[b Ejemplo:] Un investigador puede dedicarse a grabar una conversación sobre la experiencia de un visitante en determinado destino. Después el diálogo resultante se analiza por temas y líneas argumentales. El resultado será alguna perspectiva novedosa e interesante sobre los patrones de consumo de los visitantes en dicho sitio.
 
-          .tarjeta.clr-paleYellow2.p-4(titulo="<b>Entrevistas semiestructuradas</b>")
+          .tarjeta.clr-paleYellow2.p-4.mb-3(titulo="Entrevistas semiestructuradas")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -409,7 +409,7 @@
 
                 p Las preguntas suelen dividirse en secciones, donde cada parte de apertura es seguida por otras de sondeo. Además, las respuestas obtenidas en una entrevista semiestructurada suelen ser más fáciles de interpretar que otros enfoques.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="<b>Método de libre asociación /<br> Conclusión de oraciones</b>")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Método de libre asociación /Conclusión de oraciones")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -437,7 +437,7 @@
 
                 p En ocasiones, los métodos de libre asociación / conclusión de oraciones se usan en forma conjunta con otros enfoques, por ejemplo, para romper el hielo al inicio de una entrevista de #[i focus group].
               
-          .tarjeta.clr-paleYellow2.p-4(titulo="<b>Observación</b>")
+          .tarjeta.clr-paleYellow2.p-4.mb-3(titulo="Observación")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -446,7 +446,7 @@
               .col-lg-9
                 p La observación integra al investigador o a quien recolecta los datos con el lugar de estudio, en el cual se encarga de ver y registrar todo aquello que encuentra o sucede con relación al tema. El registro de los datos, producto de un proceso de observación debe hacerse de manera ordenada y sincrónica para que su análisis tenga coherencia.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="<b><em>Collages</em></b>")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="<em>Collages</em>")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -455,7 +455,7 @@
               .col-lg-9
                 p Los investigadores hacen que quienes respondan preparen #[i collages] para representar, a través de esta herramienta, la experiencia con algún bien, servicio o marca. Luego estos son analizados para determinar su significado. Esta herramienta busca ir más allá de la respuesta concreta a una pregunta, es decir, descifrar la representación de la marca que tiene el cliente a través de imágenes, descubriendo su modo de percibir el servicio que recibe de manera más auténtica.
 
-          .tarjeta.clr-paleYellow2.p-4(titulo="<b><em>Test</em> de percepción temática</b>")
+          .tarjeta.clr-paleYellow2.p-4.mb-3(titulo="<em>Test</em> de percepción temática")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
@@ -464,7 +464,7 @@
               .col-lg-9
                 p Presenta a los sujetos uno o varios cuadros de situaciones ambiguas en los que consumidores y productos son el centro de atención.  El investigador procede a pedirle al sujeto que diga lo que sucede en los cuadros y lo que sucederá después. Por lo tanto, se evocan temas con base en el uso interpretativo - perceptivo de los cuadros.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="<b>Encuestas</b>")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Encuestas")
             .row.justify-content-center.align-items-center
               .col-lg-3
                 figure(data-aos="zoom-in-left")
