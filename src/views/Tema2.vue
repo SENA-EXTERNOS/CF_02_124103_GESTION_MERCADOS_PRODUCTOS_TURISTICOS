@@ -66,7 +66,7 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Mapa de empatia]
+          p.mb-0 #[b Mapa de empatía]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
