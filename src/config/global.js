@@ -237,7 +237,8 @@ export default {
     {
       referencia:
         'Servicio Nacional de Turismo -Sernatur (2017). <i>MANUAL DE DISEÑO</i> Experiencias Turísticas.',
-      link: '',
+      link:
+        'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf',
     },
     {
       referencia:
